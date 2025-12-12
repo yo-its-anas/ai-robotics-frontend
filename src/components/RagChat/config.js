@@ -17,7 +17,7 @@ const isDevelopment = typeof window !== 'undefined'
 // Backend URLs
 export const BACKEND_URL = isDevelopment
   ? 'http://localhost:8000'
-  : 'https://airobotixbook.vercel.app'; // <-- update after deployment
+  : 'https://ai-robotics-backend.onrender.com'; // <-- update after deployment
 
 // API endpoints
 export const API_ENDPOINTS = {
