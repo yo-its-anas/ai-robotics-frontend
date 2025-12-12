@@ -148,8 +148,6 @@
           indexDocs: true,
           indexBlog: false,
           language: 'en',
-          hashed: true,
-          highlightSearchTermsOnTargetPage: true,
         },
       ],
     ],
