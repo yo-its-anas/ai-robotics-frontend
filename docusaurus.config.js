@@ -36,11 +36,19 @@
         /** @type {import('@docusaurus/preset-classic').Options} */
         ({
           docs: {
-            path: '.',
+            path: 'docs',
             routeBasePath: '/',
             sidebarPath: require.resolve('./sidebars.js'),
             editUrl: 'https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book/tree/001-ai-robotics-textbook/',
-            exclude: ['**/node_modules/**'],
+            exclude: [
+              '**/node_modules/**',
+              '**/*.backup',
+              '**/*.tmp',
+              '**/*.bak',
+              '**/.git/**',
+              '**/dist/**',
+              '**/build/**',
+            ],
             showLastUpdateTime: false,
             showLastUpdateAuthor: false,
           },
