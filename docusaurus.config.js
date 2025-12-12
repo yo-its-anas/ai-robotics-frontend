@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDE autocompletion
 
-const {themes} = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
@@ -37,7 +37,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          path: '.',                     // <— IMPORTANT: treat root folders as docs
+          routeBasePath: '/',            // homepage = docs
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book/tree/001-ai-robotics-textbook/',
           showLastUpdateTime: false,
@@ -51,9 +52,7 @@ const config = {
     ],
   ],
 
-  stylesheets: [
-    '/ragchat.css',
-  ],
+  stylesheets: ['/ragchat.css'],
 
   // Theme Configuration
   themeConfig:
@@ -88,48 +87,24 @@ const config = {
           {
             title: 'Content',
             items: [
-              {
-                label: 'Preface',
-                to: '/preface',
-              },
-              {
-                label: 'Part I: Foundations',
-                to: '/physical-ai',
-              },
-              {
-                label: 'Appendices',
-                to: '/appendix',
-              },
+              { label: 'Preface', to: '/preface' },
+              { label: 'Part I: Foundations', to: '/physical-ai' },
+              { label: 'Appendices', to: '/appendix' },
             ],
           },
           {
             title: 'Resources',
             items: [
-              {
-                label: 'ROS 2 Documentation',
-                href: 'https://docs.ros.org/',
-              },
-              {
-                label: 'NVIDIA Isaac Sim',
-                href: 'https://docs.omniverse.nvidia.com/isaacsim/',
-              },
-              {
-                label: 'Gazebo',
-                href: 'https://gazebosim.org/',
-              },
+              { label: 'ROS 2 Documentation', href: 'https://docs.ros.org/' },
+              { label: 'NVIDIA Isaac Sim', href: 'https://docs.omniverse.nvidia.com/isaacsim/' },
+              { label: 'Gazebo', href: 'https://gazebosim.org/' },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book',
-              },
-              {
-                label: 'Created with Claude Code',
-                href: 'https://claude.com/claude-code',
-              },
+              { label: 'GitHub', href: 'https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book' },
+              { label: 'Created with Claude Code', href: 'https://claude.com/claude-code' },
             ],
           },
         ],
@@ -140,7 +115,14 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['python', 'bash', 'yaml', 'json', 'cpp', 'markup'],
+        additionalLanguages: [
+          'python',
+          'bash',
+          'yaml',
+          'json',
+          'cpp',
+          'markup',
+        ],
       },
 
       // Table of Contents
@@ -152,7 +134,6 @@ const config = {
 
   // Plugins
   plugins: [
-    // Local search plugin (alternative to Algolia)
     [
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {
@@ -167,6 +148,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
+
   themes: ['@docusaurus/theme-mermaid'],
 };
 
