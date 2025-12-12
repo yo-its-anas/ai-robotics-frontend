@@ -40,6 +40,7 @@
             routeBasePath: '/',
             sidebarPath: require.resolve('./sidebars.js'),
             editUrl: 'https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book/tree/001-ai-robotics-textbook/',
+            exclude: ['**/node_modules/**'],
             showLastUpdateTime: false,
             showLastUpdateAuthor: false,
           },
