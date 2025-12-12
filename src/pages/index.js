@@ -107,7 +107,7 @@ function CourseStructure() {
         <div className="text--center margin-top--lg">
           <Link
             className="button button--primary button--lg"
-            to="/physical-ai/01-introduction">
+            to="/01-physical-ai/01-introduction">
             Start with Chapter 1
           </Link>
         </div>

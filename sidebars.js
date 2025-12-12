@@ -58,27 +58,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'physical-ai/index',
+          id: '01-physical-ai/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'physical-ai/01-introduction',
+          id: '01-physical-ai/01-introduction',
           label: 'Ch 1: Introduction to Physical AI',
         },
         {
           type: 'doc',
-          id: 'physical-ai/02-humanoid-landscape',
+          id: '01-physical-ai/02-humanoid-landscape',
           label: 'Ch 2: Humanoid Robotics Landscape',
         },
         {
           type: 'doc',
-          id: 'physical-ai/03-sensor-foundations',
+          id: '01-physical-ai/03-sensor-foundations',
           label: 'Ch 3: Sensor Foundations',
         },
         {
           type: 'doc',
-          id: 'physical-ai/04-weekly-overview',
+          id: '01-physical-ai/04-weekly-overview',
           label: 'Ch 4: Course Overview',
         },
       ],
@@ -95,27 +95,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'ros2/index',
+          id: '02-ros2/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'ros2/05-fundamentals',
+          id: '02-ros2/05-fundamentals',
           label: 'Ch 5: ROS 2 Fundamentals',
         },
         {
           type: 'doc',
-          id: 'ros2/06-python-development',
+          id: '02-ros2/06-python-development',
           label: 'Ch 6: Python Development',
         },
         {
           type: 'doc',
-          id: 'ros2/07-urdf',
+          id: '02-ros2/07-urdf',
           label: 'Ch 7: URDF Robot Description',
         },
         {
           type: 'doc',
-          id: 'ros2/08-control-systems',
+          id: '02-ros2/08-control-systems',
           label: 'Ch 8: Control Systems',
         },
       ],
@@ -132,22 +132,22 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'gazebo-unity/index',
+          id: '03-gazebo-unity/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'gazebo-unity/09-gazebo-intro',
+          id: '03-gazebo-unity/09-gazebo-intro',
           label: 'Ch 9: Gazebo Simulation',
         },
         {
           type: 'doc',
-          id: 'gazebo-unity/10-humanoid-sim',
+          id: '03-gazebo-unity/10-humanoid-sim',
           label: 'Ch 10: Simulating Humanoids',
         },
         {
           type: 'doc',
-          id: 'gazebo-unity/11-unity-robotics',
+          id: '03-gazebo-unity/11-unity-robotics',
           label: 'Ch 11: Unity for Robotics',
         },
       ],
@@ -164,27 +164,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'nvidia-isaac/index',
+          id: '04-nvidia-isaac/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'nvidia-isaac/12-isaac-sim',
+          id: '04-nvidia-isaac/12-isaac-sim',
           label: 'Ch 12: Isaac Sim Introduction',
         },
         {
           type: 'doc',
-          id: 'nvidia-isaac/13-perception',
+          id: '04-nvidia-isaac/13-perception',
           label: 'Ch 13: Perception & Synthetic Data',
         },
         {
           type: 'doc',
-          id: 'nvidia-isaac/14-isaac-ros',
+          id: '04-nvidia-isaac/14-isaac-ros',
           label: 'Ch 14: Isaac ROS',
         },
         {
           type: 'doc',
-          id: 'nvidia-isaac/15-navigation',
+          id: '04-nvidia-isaac/15-navigation',
           label: 'Ch 15: Navigation (Nav2)',
         },
       ],
@@ -201,27 +201,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'vla/index',
+          id: '05-vla/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'vla/16-vla-intro',
+          id: '05-vla/16-vla-intro',
           label: 'Ch 16: VLA Systems Introduction',
         },
         {
           type: 'doc',
-          id: 'vla/17-voice-whisper',
+          id: '05-vla/17-voice-whisper',
           label: 'Ch 17: Voice with Whisper',
         },
         {
           type: 'doc',
-          id: 'vla/18-llm-planning',
+          id: '05-vla/18-llm-planning',
           label: 'Ch 18: LLM Planning',
         },
         {
           type: 'doc',
-          id: 'vla/19-multimodal',
+          id: '05-vla/19-multimodal',
           label: 'Ch 19: Multimodal Interaction',
         },
       ],
@@ -238,27 +238,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'hardware-lab/index',
+          id: '06-hardware-lab/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'hardware-lab/20-workstations',
+          id: '06-hardware-lab/20-workstations',
           label: 'Ch 20: Simulation Workstations',
         },
         {
           type: 'doc',
-          id: 'hardware-lab/21-jetson',
+          id: '06-hardware-lab/21-jetson',
           label: 'Ch 21: Jetson Edge AI Kits',
         },
         {
           type: 'doc',
-          id: 'hardware-lab/22-robot-options',
+          id: '06-hardware-lab/22-robot-options',
           label: 'Ch 22: Robot Platform Options',
         },
         {
           type: 'doc',
-          id: 'hardware-lab/23-cloud-infra',
+          id: '06-hardware-lab/23-cloud-infra',
           label: 'Ch 23: Cloud Infrastructure',
         },
       ],
@@ -275,27 +275,27 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'capstone/index',
+          id: '07-capstone/index',
           label: 'Part Overview',
         },
         {
           type: 'doc',
-          id: 'capstone/24-architecture',
+          id: '07-capstone/24-architecture',
           label: 'Ch 24: System Architecture',
         },
         {
           type: 'doc',
-          id: 'capstone/25-implementation',
+          id: '07-capstone/25-implementation',
           label: 'Ch 25: Implementation',
         },
         {
           type: 'doc',
-          id: 'capstone/26-sim-to-real',
+          id: '07-capstone/26-sim-to-real',
           label: 'Ch 26: Sim-to-Real Transfer',
         },
         {
           type: 'doc',
-          id: 'capstone/27-evaluation',
+          id: '07-capstone/27-evaluation',
           label: 'Ch 27: Evaluation & Extensions',
         },
       ],
@@ -312,32 +312,32 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'appendix/index',
+          id: '08-appendix/index',
           label: 'Appendices Overview',
         },
         {
           type: 'doc',
-          id: 'appendix/a-ros2-cheatsheet',
+          id: '08-appendix/a-ros2-cheatsheet',
           label: 'A: ROS 2 Cheat Sheets',
         },
         {
           type: 'doc',
-          id: 'appendix/b-urdf-reference',
+          id: '08-appendix/b-urdf-reference',
           label: 'B: URDF/SDF Reference',
         },
         {
           type: 'doc',
-          id: 'appendix/c-troubleshooting-guide',
+          id: '08-appendix/c-troubleshooting-guide',
           label: 'C: Troubleshooting Guide',
         },
         {
           type: 'doc',
-          id: 'appendix/d-hardware-checklists',
+          id: '08-appendix/d-hardware-checklists',
           label: 'D: Hardware Checklists',
         },
         {
           type: 'doc',
-          id: 'appendix/e-instructor-guides',
+          id: '08-appendix/e-instructor-guides',
           label: 'E: Instructor Guides',
         },
       ],
