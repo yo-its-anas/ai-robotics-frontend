@@ -133,18 +133,19 @@ const config = {
     }),
 
   // Plugins
-plugins: [
-  [
-    require.resolve('@cmfcmf/docusaurus-search-local'),
-    {
-      indexDocs: true,
-      indexBlog: false,
-      language: 'en',
-      docsDir: '.', 
-      ignoreFiles: ['**/node_modules/**'],  // <-- THIS FIXES UNDICI WARNINGS
-    },
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        language: 'en',
+        hashed: true, // Required on Vercel for caching
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
   ],
-],
+
 
 
   // Markdown Configuration
