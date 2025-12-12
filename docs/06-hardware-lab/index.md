@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part VI: Building the Physical AI Hardware Lab"
 sidebar_label: "Part Overview"
 sidebar_position: 1

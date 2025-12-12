@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part III: Gazebo & Unity Simulation"
 sidebar_label: "Part Overview"
 sidebar_position: 1

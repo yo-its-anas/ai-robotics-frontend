@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part IV: NVIDIA Isaac"
 sidebar_label: "Part Overview"
 sidebar_position: 1

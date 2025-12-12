@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part I: Foundations of Physical AI"
 sidebar_label: "Part Overview"
 sidebar_position: 1

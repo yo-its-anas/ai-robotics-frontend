@@ -1,5 +1,4 @@
 ---
-id: index
 title: "What This Textbook Is"
 sidebar_label: "What This Textbook Is"
 sidebar_position: 1

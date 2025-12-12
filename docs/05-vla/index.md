@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part V: Vision-Language-Action"
 sidebar_label: "Part Overview"
 sidebar_position: 1

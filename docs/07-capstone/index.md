@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part VII: Capstone Project"
 sidebar_label: "Part Overview"
 sidebar_position: 1

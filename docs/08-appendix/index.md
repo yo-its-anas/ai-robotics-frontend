@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Appendices"
 sidebar_label: "Appendices Overview"
 sidebar_position: 1

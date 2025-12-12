@@ -1,5 +1,4 @@
 ---
-id: index
 title: "Part II: ROS 2 - The Robotic Nervous System"
 sidebar_label: "Part Overview"
 sidebar_position: 1
